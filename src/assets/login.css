@@ -1,0 +1,80 @@
+
+/* General Page Styling */
+{/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #8f8883, #b9c6dd);
+    font-family: Arial, sans-serif;
+    margin: 0;
+} */}
+
+/* Login Form Container */
+
+form {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+
+
+       /* Centering */
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+}
+
+/* Form Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+/* Input Groups */
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #f3e9e9;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Error Message Styling */
+span {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Login Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #3121c0;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #4a79c5;
+}
+ 
